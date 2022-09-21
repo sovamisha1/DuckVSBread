@@ -6,8 +6,9 @@ public class Main : MonoBehaviour
 {
 
     public float maxSpeed = 1f;
-    public bool rotate = true;
     public float jump = 300f;
+    
+    public bool isRight = false;
     private bool _isGrounded;
 
 
